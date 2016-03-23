@@ -1,6 +1,4 @@
-tracks/
 sftp-config.json
-cobbles/
 .idea/
 sonar-project.properties
 .sonar/

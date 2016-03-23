@@ -14,7 +14,7 @@ namespace emmea90\socialsidemenu\acp;
 /**
 * @package tracks
 */
-class maps_info
+class sidemenu_info
 {
 	function module()
 	{
@@ -24,7 +24,7 @@ class maps_info
 			'version'    => '1.0.0',
 			'modes'		=> array(
 				'manage'	=> array(
-				'title'		=> 'ACP_SOCIALSIDEMENU_CATEGORY',
+				'title'		=> 'ACP_SOCIALSIDEMENU_MANAGE_MODE',
 				'auth'		=> 'acl_a_can_manage_sidemenu',
 				'cat'		=> array('ACP_SOCIALSIDEMENU'),
 				),

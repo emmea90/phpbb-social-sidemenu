@@ -1,54 +1,25 @@
 <!-- INCLUDE overall_header.html -->
 <a name="maincontent"></a>
-<h1>{L_MAPS_INDEX_TITLE}</h1>
+<h1>{L_SOCIALSIDEMENU_TITLE}</h1>
 <form id="acp_socialsidemenu" method="post" action="{U_ACTION}">
 	<fieldset>
-		<legend>{L_MAPS_INDEX_TITLE}</legend>
+		<legend>{L_SOCIALSIDEMENU}</legend>
 		<dl>
-			<dt><label for="tracks_active">{L_MAPS_ACTIVE}:</label></dt>
-			<dd><input type="radio" name="tracks_active" value="1" <!-- IF TRACKS_ACTIVE -->checked="checked"<!-- ENDIF -->>&nbsp;{L_YES}&nbsp;</input>
-			<input type="radio" name="tracks_active" value="0" <!-- IF not TRACKS_ACTIVE -->checked="checked"<!-- ENDIF -->>&nbsp;{L_NO}&nbsp;</input></dd>
+			<dt><label for="socialsidemenu_active">{L_SOCIALSIDMENU_ACTIVE}:</label></dt>
+			<dd><input type="radio" name="socialsidemenu_active" value="1" <!-- IF SOCIALSIDEMENU_ACTIVE -->checked="checked"<!-- ENDIF -->>&nbsp;{L_YES}&nbsp;</input>
+			<input type="radio" name="socialsidemenu_active" value="0" <!-- IF not SOCIALSIDEMENU_ACTIVE -->checked="checked"<!-- ENDIF -->>&nbsp;{L_NO}&nbsp;</input></dd>
 		</dl>
 		<dl>
-			<dt><label for="tracks_apikey">{L_MAPS_APIKEY}:</label></dt>
-			<dd><input type="text" name="tracks_apikey" id="tracks_apikey" size="50" value="{TRACKS_APIKEY}" /></dd>
-		</dl>
-	</fieldset>
-	<fieldset>
-		<legend>{L_MAPS_WELCOME_MESSAGE}</legend>
-		<dl>
-			<dt><label for="tracks_welcomemessage">{L_MAPS_WELCOME_MESSAGE}:</label></dt>
-			<dd><textarea form="acp_maps" name="tracks_welcomemessage" id="tracks_welcomemessage"  rows="4" cols="50">{TRACKS_WELCOMEMESSAGE}</textarea></dd>
-		</dl>
-		<dl>
-			<dt><label for="tracks_whatsnew">{L_MAPS_WHATSNEW}:</label></dt>
-			<dd><textarea form="acp_maps" name="tracks_whatsnew" id="tracks_whatsnew"  rows="4" cols="50">{TRACKS_WHATSNEW}</textarea></dd>
+			<dt><label for="socialpopup_active">{L_SOCIALPOPUP_ACTIVE}:</label></dt>
+			<dd><input type="radio" name="socialpopup_active" value="1" <!-- IF SOCIALPOPUP_ACTIVE -->checked="checked"<!-- ENDIF -->>&nbsp;{L_YES}&nbsp;</input>
+			<input type="radio" name="socialpopup_active" value="0" <!-- IF not SOCIALPOPUP_ACTIVE -->checked="checked"<!-- ENDIF -->>&nbsp;{L_NO}&nbsp;</input></dd>
 		</dl>
 	</fieldset>
 	<fieldset>
-		<legend>{L_MAPS_ADS}</legend>
+		<legend>{L_FACEBOOK_PAGE}</legend>
 		<dl>
-			<dt><label for="tracks_adclient">{L_MAPS_ADCLIENT}:</label></dt>
-			<dd><input type="text" name="tracks_adclient" id="tracks_adclient" rows="4" cols="50" value="{TRACKS_ADCLIENT}" /></dd>
-		</dl>
-		<dl>
-			<dt><label for="tracks_adslot">{L_MAPS_ADSLOT}:</label></dt>
-			<dd><input type="text" name="tracks_adslot" id="tracks_adslot" rows="4" cols="50" value="{TRACKS_ADSLOT}" /></dd>
-		</dl>
-		<dl>
-			<dt><label for="tracks_headerads">{L_MAPS_HEADER_ADS}:</label></dt>
-			<dd><input type="radio" name="tracks_headerads" value="1" <!-- IF TRACKS_HEADERADS -->checked="checked"<!-- ENDIF -->>&nbsp;{L_YES}&nbsp;</input>
-			<input type="radio" name="tracks_headerads" value="0" <!-- IF not TRACKS_HEADERADS -->checked="checked"<!-- ENDIF -->>&nbsp;{L_NO}&nbsp;</input></dd>
-		</dl>
-		<dl>
-			<dt><label for="tracks_homeads">{L_MAPS_HOME_ADS}:</label></dt>
-			<dd><input type="radio" name="tracks_homeads" value="1" <!-- IF TRACKS_HOMEADS -->checked="checked"<!-- ENDIF -->>&nbsp;{L_YES}&nbsp;</input>
-			<input type="radio" name="tracks_homeads" value="0" <!-- IF not TRACKS_HOMEADS -->checked="checked"<!-- ENDIF -->>&nbsp;{L_NO}&nbsp;</input></dd>
-		</dl>
-		<dl>
-			<dt><label for="tracks_routecontrolads">{L_MAPS_ROUTECONTROL_ADS}:</label></dt>
-			<dd><input type="radio" name="tracks_routecontrolads" value="1" <!-- IF TRACKS_ROUTECONTROLADS -->checked="checked"<!-- ENDIF -->>&nbsp;{L_YES}&nbsp;</input>
-			<input type="radio" name="tracks_routecontrolads" value="0" <!-- IF not TRACKS_ROUTECONTROLADS -->checked="checked"<!-- ENDIF -->>&nbsp;{L_NO}&nbsp;</input></dd>
+			<dt><label for="facebook_page">{L_FACEBOOK_PAGE_MENU}:</label></dt>
+			<dd>http://www.facebook.com/<input type="text" name="facebook_page" id="facebook_page"value="{FACEBOOK_PAGE}" /></dd>
 		</dl>
 	</fieldset>
 	<p class="submit-buttons">

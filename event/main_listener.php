@@ -95,7 +95,7 @@ class main_listener implements EventSubscriberInterface
 		));
 
 		$event['permissions'] = array_merge($event['permissions'], array(
-			'acl_a_can_manage_sidemenu'	=> array('lang' => 'ACL_A_CAN_MANAGE_SITEMENU', 'cat' => 'emmea90_sidemenu')
+			'a_can_manage_sidemenu'	=> array('lang' => 'ACL_A_CAN_MANAGE_SITEMENU', 'cat' => 'emmea90_sidemenu')
 		));
 	}
 
@@ -105,6 +105,9 @@ class main_listener implements EventSubscriberInterface
 		$this->user->add_lang_ext('emmea90/socialsidemenu', 'socialsidemenu_global');
 
 		$this->template->assign_vars(array(
+			'SOCIALSIDEMENU_ACTIVE'			=> $this->config['socialsidemenu_active'],
+			'SOCIALPOPUP_ACTIVE'			=> $this->config['socialpopup_active'],
+			'FACEBOOK_PAGE'			=> $this->config['facebook_page'],
 		));
 
 	}
