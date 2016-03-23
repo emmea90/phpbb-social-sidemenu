@@ -29,13 +29,17 @@ class sidemenu_module
 				trigger_error('FORM_INVALID');
 			}
 
-			$config->set('tracks_apikey', $request->variable('tracks_apikey', '', true));
+			$config->set('socialsidemenu_active', $request->variable('socialsidemenu_active', 0, false));
+			$config->set('socialpopup_active', $request->variable('socialpopup_active', 0, false));
+			$config->set('facebook_page', $request->variable('facebook_page', '', true));
 
-			trigger_error($user->lang['TRACKS_SAVED_SETTINGS'] . adm_back_link($this->u_action));
+			trigger_error($user->lang['SOCIALSIDEMENU_SAVED_SETTINGS'] . adm_back_link($this->u_action));
 		}
 
 		$template->assign_vars(array(
-			'TRACKS_APIKEY'			=> $config['tracks_apikey'],
+			'SOCIALSIDEMENU_ACTIVE'			=> $config['socialsidemenu_active'],
+			'SOCIALPOPUP_ACTIVE'			=> $config['socialpopup_active'],
+			'FACEBOOK_PAGE'			=> $config['facebook_page'],
 			'U_ACTION'				=> $this->u_action,
 		));
 

@@ -23,4 +23,5 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
+	'SOCIALSIDEMENU_SAVED_SETTINGS'	=> 'Le modifiche al Social Side Menu sono state salvate',
 ));

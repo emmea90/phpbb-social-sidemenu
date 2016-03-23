@@ -29,4 +29,5 @@ if (!defined('IN_PHPBB'))
 $lang = array_merge($lang, array(
 	'ACP_SOCIALSIDEMENU'                     => 'Social Sidemenu',
 	'ACP_SOCIALSIDEMENU_CATEGORY'            => 'Social Sidemenu',
+	'ACP_SOCIALSIDEMENU_MANAGE_MODE'		=> 'Gestione',
 ));
