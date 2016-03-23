@@ -5,7 +5,7 @@ namespace emmea90\socialsidemenu\acp;
 /**
 * @package tracks
 */
-class maps_module
+class sidemenu_module
 {
 	var $u_action;
 

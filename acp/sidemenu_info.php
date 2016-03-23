@@ -14,7 +14,7 @@ namespace emmea90\socialsidemenu\acp;
 /**
 * @package tracks
 */
-class maps_info
+class sidemenu_info
 {
 	function module()
 	{

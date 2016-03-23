@@ -1,5 +1,5 @@
 {
-	"name": "emmea90/social-sidemenu",
+	"name": "emmea90/socialsidemenu",
 	"type": "phpbb-extension",
 	"description": "Share your phpBB website with the social bar and the facebook popup",
 	"homepage": "http://www.la-flamme-rouge.eu",
@@ -26,7 +26,7 @@
 	"extra": {
 		"display-name": "Social Sidemenu",
 		"soft-require": {
-			"phpbb/phpbb": ">=3.0.6,<3.2.*@dev"
+			"phpbb/phpbb": ">=3.1.0,<3.2.*@dev"
 		}
 	}
 }
