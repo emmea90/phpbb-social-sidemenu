@@ -36,11 +36,11 @@ class m2_permission_installation extends \phpbb\db\migration\migration
 	public function update_data()
 	{
 		return array(
-			array('permission.add', array('acl_a_can_manage_sidemenu')),
+			array('permission.add', array('a_can_manage_sidemenu')),
 
 			// Set permissions
-			array('permission.permission_set', array('ROLE_ADMIN_FULL', 'acl_a_can_manage_sidemenu')),
-			array('permission.permission_set', array('ROLE_ADMIN_STANDARD', 'acl_a_can_manage_sidemenu')),
+			array('permission.permission_set', array('ROLE_ADMIN_FULL', 'a_can_manage_sidemenu')),
+			array('permission.permission_set', array('ROLE_ADMIN_STANDARD', 'a_can_manage_sidemenu')),
 
 		);
 	}
@@ -48,7 +48,7 @@ class m2_permission_installation extends \phpbb\db\migration\migration
 	public function revert_data()
 	{
 		return array(
-			array('permission.remove', array('acl_a_can_manage_sidemenu')),
+			array('permission.remove', array('a_can_manage_sidemenu')),
 		);
 	}
 }

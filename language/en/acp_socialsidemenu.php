@@ -24,4 +24,5 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'SOCIALSIDEMENU_SAVED_SETTINGS'	=> 'Social Side Menu edits have been saved',
+	'ACP_SOCIALSIDEMENU'                    => 'Social Sidemenu',
 ));

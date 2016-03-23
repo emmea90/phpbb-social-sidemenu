@@ -27,7 +27,7 @@ if (!defined('IN_PHPBB'))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_SOCIALSIDEMENU'                    => 'Social Sidemenu',
 	'ACP_SOCIALSIDEMENU_CATEGORY'           => 'Social Sidemenu',
+	'ACP_SOCIALSIDEMENU'           => 'Social Sidemenu',
 	'ACP_SOCIALSIDEMENU_MANAGE_MODE'		=> 'Management',
 ));

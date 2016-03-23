@@ -23,4 +23,5 @@ if (empty($lang) || !is_array($lang))
 
 // everywhere else
 $lang = array_merge($lang, array(
+	'ACP_SOCIALSIDEMENU'                    => 'Social Sidemenu',
 ));
