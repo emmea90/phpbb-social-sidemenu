@@ -1,0 +1,32 @@
+{
+	"name": "emmea90/social-sidemenu",
+	"type": "phpbb-extension",
+	"description": "Share your phpBB website with the social bar and the facebook popup",
+	"homepage": "http://www.la-flamme-rouge.eu",
+    "keywords": ["facebook", "phpbb", "social", "responsive"],
+	"version": "0.0.1",
+    "time": "2016-03-23",
+	"keywords": ["phpbb", "extension", "facebook"],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Alessio Massetti",
+			"homepage": "http://www.la-flamme-rouge.eu",
+			"email": "alessiomassetti@gmail.com",
+			"role": "Owner"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3",
+		"composer/installers": "~1.0"
+	},
+	"require-dev": {
+		"phpbb/epv": "dev-master"
+	},
+	"extra": {
+		"display-name": "Social Sidemenu",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.0.6,<3.2.*@dev"
+		}
+	}
+}
