@@ -23,6 +23,14 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
+	'ACP_SOCIALSIDEMENU'                    => 'Social Sidemenu',
+	'SOCIALSIDEMENU'              => 'Social Sidemenu',
+	'SOCIALSIDEMENU_TITLE'              => 'Social Sidemenu',
+	'SOCIALSIDEMENU_SAVED_SETTINGS'	=> 'Social Sidemenu Settings has been saved',
+	'SOCIALSIDMENU_ACTIVE'	=> 'Sidemenu Activated',
+	'SOCIALPOPUP_ACTIVE'	=> 'Page popup Activated',
+	'FACEBOOK_PAGE'	=> 'Facebook Page',
+	'FACEBOOK_PAGE_MENU'	=> 'Facebook Page in the Sidemenu',
 	'SOCIALSIDEMENU_SAVED_SETTINGS'	=> 'Social Side Menu edits have been saved',
 	'ACP_SOCIALSIDEMENU'                    => 'Social Sidemenu',
 ));
