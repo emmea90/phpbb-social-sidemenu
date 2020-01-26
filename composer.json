@@ -4,9 +4,8 @@
 	"description": "Share your phpBB website with the social bar and the facebook popup",
 	"homepage": "http://www.la-flamme-rouge.eu",
     "keywords": ["facebook", "phpbb", "social", "responsive"],
-	"version": "0.0.1",
+	"version": "0.0.3",
     "time": "2016-03-23",
-	"keywords": ["phpbb", "extension", "facebook"],
 	"license": "GPL-2.0",
 	"authors": [
 		{
