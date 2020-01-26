@@ -2,12 +2,12 @@ services:
     emmea90.socialsidemenu.listener:
         class: emmea90\socialsidemenu\event\main_listener
         arguments:
-            - @auth
-            - @config
-            - @template
-            - @user
-            - @controller.helper
-            - %core.root_path%
-            - %core.php_ext%
+            - '@auth'
+            - '@config'
+            - '@template'
+            - '@user'
+            - '@controller.helper'
+            - '%core.root_path%'
+            - '%core.php_ext%'
         tags:
             - { name: event.listener }
